@@ -4,12 +4,41 @@
 //
 //  Created by Mia Elizabeth Alvarado on 7/14/20.
 //  Copyright © 2020 Mia Alvarado. All rights reserved.
-//
+//import UIKit
+/*
+class AddToDoViewController: UIViewController {
+
+  @IBOutlet weak var titleTextField: UITextField!
+  @IBOutlet weak var importantSwitch: UISwitch!
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+
+  }
+
+  @IBAction func addTapped(_ sender: Any) {
+  }
+
+}
+*/
 
 import UIKit
 
 class ToDoTableViewController: UITableViewController {
 
+    @IBOutlet weak var titleTextField: UITextField!
+    @IBOutlet weak var importantSwitch: UISwitch!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    @IBAction func addTapped(_sender: Any)
+    {
+    }
+    
+    }
+    
     var toDos : [ToDo] = []
     
     override func viewDidLoad() {
